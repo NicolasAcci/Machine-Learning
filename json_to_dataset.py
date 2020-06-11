@@ -11,7 +11,7 @@ from skimage import io
 import yaml
 from labelme import utils
 
-
+# labelme 转换指定的label像素值
 # 这个只能按照顺序来
 NAME_LABEL_MAP = {
     '_background_': 0,
